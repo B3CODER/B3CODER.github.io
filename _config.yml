@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-# locale                   : "en-US"
+locale                   : "en-US"
 title                    : "Bhavya Shah"
 title_separator          : "-"
 name                     : &name "Bhavya Shah"
@@ -25,7 +25,7 @@ author:
   name             : "Bhavya Shah"
   pronouns         : # example: "she/her"  
   bio              : "Machine Learning Enthusiast"
-  location         : "Earth"
+  # location         : "Earth"
   employer         : "Pandit Deendayal Energy University"
   uri              : # URL
   email            : "bhavya312003@gmail.com" 
