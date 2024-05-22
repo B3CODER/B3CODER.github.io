@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+# locale                   : "en-US"
 title                    : "Bhavya Shah"
 title_separator          : "-"
 name                     : &name "Bhavya Shah"
