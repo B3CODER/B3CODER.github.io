@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Projetcs"
-    url: /portfolio/
+    url: /projects/
   
   - title: "Experience"
     url: /talks/     
