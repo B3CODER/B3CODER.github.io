@@ -2,6 +2,7 @@
 title: "Internship at Nexus"
 date: 2024-05-15
 location: "Remote"
+priority: 3
 ---
 
 ## Company: Nexus
