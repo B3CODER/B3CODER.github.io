@@ -8,4 +8,9 @@ location: "Remote"
 **Duration**: March 2024 - May 2024  
 **Description**: Completed various tasks related to machine learning, focusing on an emotion detection project.
 
-[Read more](./Nullclass-internship-details)
+### Detailed Tasks
+For more details, visit the [GitHub Repository](https://github.com/B3CODER/Emotion_detection_task).
+
+- **Task 1**: Description of task 1.
+- **Task 2**: Description of task 2.
+- **Task 3**: Description of task 3.
