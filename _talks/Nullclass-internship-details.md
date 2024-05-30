@@ -9,7 +9,7 @@ location: "Remote"
 **Description**: Completed various tasks related to machine learning, focusing on an emotion detection project.
 
 ### Detailed Tasks
-For more details, visit the [GitHub Repository](https://github.com/your-repo-link).
+For more details, visit the [GitHub Repository](https://github.com/B3CODER/Emotion_detection_task).
 
 - **Task 1**: Description of task 1.
 - **Task 2**: Description of task 2.
