@@ -2,6 +2,7 @@
 title: "Internship at Null Class Pvt Ltd"
 date: 2024-03-08
 location: "Remote"
+priority: 2
 ---
 
 ## Company: Null Class Pvt Ltd
