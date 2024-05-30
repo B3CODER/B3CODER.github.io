@@ -1,6 +1,5 @@
 ---
 title: "Internship at Ernst and Young"
-date: 2024-05-13
 location: "Remote"
 ---
 
