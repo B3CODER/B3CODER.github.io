@@ -11,17 +11,6 @@ redirect_from:
 ## About Me
 I am Bhavya Shah, a passionate third-year Bachelor of Technology student at Pandit Deendayal Energy University, Gujarat, with a keen interest in Deep Learning, Machine Learning, and their applications in healthcare and AI-driven solutions. I am proficient in Python, C++, and various AI frameworks like PyTorch and OpenCV, aiming to contribute innovative technologies to address real-world challenges.
 
-## Projects
-
-### Comparative Analysis of Clustering
-- Evaluated Hierarchical vs. Spectral Clustering methods on diverse dataset sizes using Python, incorporating data analysis and visualization tools like SciPy, scikit-learn, and Matplotlib. Performance assessment included metrics such as Silhouette Score, Davies-Bouldin Index, and Adjusted Rand Index.
-
-### Verbal Linguists
-- Developed a speech-to-text transcription and translation platform for Indian languages (Hindi, Urdu, Bengali, Punjabi, Indian English). The system processes native audio input, reduces noise, recognizes languages, transcribes to native text, translates to English, and provides English audio output, facilitating cross-language communication.
-
-### Anomaly Detection for Video Streams
-- Implemented a comprehensive anomaly detection system for video streams using OpenCV and YOLOv8m. The project involved analyzing video frames, performing object detection using pre-trained models, and applying image-level anomaly detection methods such as ResNet50. Additionally, explored real-time speed detection using Ultralytics’ YOLO model and integrating Google’s Deepsort for enhanced object tracking and speed estimation.
-
 ### Passion and Commitment
 I am deeply enthusiastic about leveraging AI and machine learning to address real-world challenges effectively. My projects reflect a dedication to pushing boundaries and delivering impactful solutions in healthcare, anomaly detection, and beyond. I am passionate about contributing to innovative technologies that make a positive difference in society, driving towards a future where AI enhances efficiency, sustainability, and human well-being.
 
