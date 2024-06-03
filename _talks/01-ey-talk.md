@@ -1,4 +1,7 @@
 ---
+title: "Internship at Ernst and Young Global(LLP)"
+date: 2024-05-13
+location: "Remote"
 priority: 1
 ---
 
