@@ -7,8 +7,5 @@ priority: 3
 
 ## Company: Nexus
 **Duration**: May 2024 - June 2024  
-**Description**: During my internship at Null Class Pvt Ltd, I specialized in advancing emotion detection algorithms through a series of focused tasks. I compared time-series models with static image-based approaches, developed dynamic model adaptation for personalized predictions, and integrated cultural context to enhance cross-cultural recognition accuracy. Additionally, I created real-time emotion detection systems for streaming video data and trained multi-context models.
+**Description**: Developed an interactive chatbot in Python using tkinter, integrating API calls for weather updates, news retrieval, and language translation. Additional features include joke generation, date retrieval, and mathematical operations. In parallel, implemented a context-aware Q&A admission chatbot using Flask, incorporating memory management for personalized responses based on user interactions, thereby enhancing user engagement. Lastly, the "Disease Prediction System using Machine Learning" project focuses on developing an intelligent system that predicts disease likelihood from health data using machine learning, aiming for early detection and proactive healthcare management.
 
-
-### Detailed Tasks
-For more details, visit the [GitHub Repository](https://github.com/B3CODER/AIML-Project-Series).
