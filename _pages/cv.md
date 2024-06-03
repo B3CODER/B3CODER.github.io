@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Request a copy of my latest CV [here](/files/Bhavya Shah Resume.pdf)
+Request a copy of my latest CV [here](/files/Resume_Professional.pdf)
