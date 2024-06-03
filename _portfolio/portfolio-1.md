@@ -1,6 +1,6 @@
 ---
 title: "Verbal Linguists"
-excerpt: "Speech to text transcription for Indian languages<br/><img src='/images/images.jpeg'>"
+excerpt: "Speech to text transcription for Indian languages<br/><img src='/images/images400-218.jpg'>"
 collection: portfolio
 ---
 
