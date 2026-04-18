@@ -19,6 +19,14 @@ Contributed to the development of pgmpy by implementing new features, fixing bug
 
 [GitHub Repository](https://github.com/pgmpy/pgmpy)
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Research and Publications
+
+### Adapting Grey Energy Models for Demand Forecasting Across Diverse Datasets
+
+Published in *International Conference on Advances in Sustainable Development, Innovation and Green Technology, hosted by Assam Downtown University in Guwahati, Assam*, 2024.
+
+[Download Paper](https://b3coder.github.io/files/Paper.pdf)
+
+### R&D on Digi Yatra Application at Ernst and Young Global(LLP)
+
+While working with Ernst and Young Global(LLP), I conducted research and development on the Digi Yatra application, focusing on how digital identity, biometric verification, and secure passenger-flow systems can improve airport operations. The work involved studying the application workflow, identifying areas for better user experience and operational efficiency, and exploring AI-driven approaches for faster, safer, and more seamless travel verification.
