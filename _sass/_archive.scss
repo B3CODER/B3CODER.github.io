@@ -48,6 +48,11 @@
   }
 }
 
+.experience__item-title {
+  color: $text-color;
+  text-decoration: none;
+}
+
 /* remove border*/
 .page__content {
 
@@ -81,6 +86,10 @@
 
   .archive__item-title {
     text-decoration: underline;
+  }
+
+  .experience__item-title {
+    text-decoration: none;
   }
 }
 
