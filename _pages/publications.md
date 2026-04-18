@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
@@ -19,7 +19,7 @@ Contributed to the development of pgmpy by implementing new features, fixing bug
 
 [GitHub Repository](https://github.com/pgmpy/pgmpy)
 
-## Research Work
+## Selected Work
 
 ### Adapting Grey Energy Models for Demand Forecasting Across Diverse Datasets
 
