@@ -11,6 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
+## Open Source Contributions
+
+### pgmpy
+
+Contributed to the development of pgmpy by implementing new features, fixing bugs, and improving documentation.
+
+[GitHub Repository](https://github.com/pgmpy/pgmpy)
+
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
