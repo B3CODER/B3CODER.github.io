@@ -5,7 +5,7 @@ location: "Remote"
 priority: 2
 ---
 
-## Company: Null Class Pvt Ltd
+<h2 class="experience-company">Company: <span class="variable-proximity" data-variable-proximity>Null Class Pvt Ltd</span></h2>
 **Duration**: March 2024 - May 2024  
 **Description**: During my internship at Null Class Pvt Ltd, I specialized in advancing emotion detection algorithms through a series of focused tasks. I compared time-series models with static image-based approaches, developed dynamic model adaptation for personalized predictions, and integrated cultural context to enhance cross-cultural recognition accuracy. Additionally, I created real-time emotion detection systems for streaming video data and trained multi-context models.
 
