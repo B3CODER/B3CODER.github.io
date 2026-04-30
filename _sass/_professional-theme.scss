@@ -120,22 +120,79 @@ body {
   box-shadow: 0 10px 28px rgba(17, 24, 39, 0.08);
 }
 
+.sidebar > div[itemscope] {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(217, 222, 229, 0.82);
+  border-radius: 8px;
+  box-shadow: 0 16px 38px rgba(17, 24, 39, 0.08);
+}
+
+.sidebar .author__avatar {
+  text-align: center;
+}
+
+.sidebar .author__avatar img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sidebar .author__content {
+  text-align: center;
+}
+
 .author__bio {
   color: $gray;
 }
 
 .author__urls {
-  background: $body-color;
-  border-color: $border-color;
-  box-shadow: 0 14px 32px rgba(17, 24, 39, 0.1);
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
 
   @include breakpoint($large) {
+    padding-top: 0.7rem;
+    border-top: 1px solid $border-color;
     box-shadow: none;
   }
 }
 
+.author__urls li {
+  margin-bottom: 0.3rem;
+  color: $gray;
+  white-space: normal;
+}
+
+.author__urls a,
+.author__urls .author__desktop {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin-bottom: 0;
+  padding: 0.28rem 0.35rem;
+  color: $gray;
+  font-size: $type-size-6;
+  line-height: 1.35;
+  border-radius: 6px;
+}
+
+.author__urls a {
+  text-decoration: none;
+}
+
 .author__urls a:hover {
   color: $primary-color;
+  background: rgba(14, 110, 106, 0.08);
+  text-decoration: none;
+}
+
+.author__urls i {
+  width: 1rem;
+  margin-top: 0.18rem;
+  color: $primary-color;
+  text-align: center;
+  flex-shrink: 0;
 }
 
 .btn {
