@@ -1,0 +1,12 @@
+{% include base_path %}
+
+<a class="project-card" href="{{ base_path }}{{ post.url }}">
+  <span class="project-card__mark" aria-hidden="true">{{ post.project_initials }}</span>
+  <span class="project-card__body">
+    <span class="project-card__type">{{ post.project_type }}</span>
+    <span class="project-card__title">{{ post.title }}</span>
+    <span class="project-card__summary">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</span>
+    <span class="project-card__stack">{{ post.project_stack }}</span>
+  </span>
+  <span class="project-card__badge">{{ post.project_badge | default: "View project" }}</span>
+</a>
