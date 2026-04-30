@@ -3,7 +3,16 @@
    ========================================================================== */
 
 body {
-  background: $background-color;
+  background-color: $background-color;
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(14, 110, 106, 0.08), transparent 28%),
+    radial-gradient(circle at 86% 10%, rgba(54, 94, 125, 0.07), transparent 24%),
+    linear-gradient(135deg, rgba(14, 110, 106, 0.035) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(54, 94, 125, 0.03) 25%, transparent 25%),
+    linear-gradient(180deg, #f9fafb 0%, $background-color 48%, #eef1f5 100%);
+  background-position: center top, center top, 0 0, 0 0, center top;
+  background-size: auto, auto, 34px 34px, 34px 34px, auto;
+  background-attachment: fixed;
 }
 
 .masthead {
