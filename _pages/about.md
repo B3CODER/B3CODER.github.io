@@ -16,14 +16,47 @@ I enjoy turning complex AI ideas into usable products, from voice-driven assista
 
 ## Tech Stack
 
-### Programming Languages
+<div class="tech-stack">
+  <section class="tech-stack__group">
+    <h3>Programming Languages</h3>
+    <div class="tech-stack__tags" aria-label="Programming Languages">
+      <span>Python</span>
+      <span>C++</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>SQL</span>
+    </div>
+  </section>
 
-Python, C++, HTML, CSS, JavaScript, SQL
+  <section class="tech-stack__group">
+    <h3>Libraries and Tools</h3>
+    <div class="tech-stack__tags" aria-label="Libraries and Tools">
+      <span>PyTorch</span>
+      <span>Scikit-learn</span>
+      <span>Pandas</span>
+      <span>NumPy</span>
+      <span>OpenCV</span>
+      <span>LangChain</span>
+      <span>Vector Databases</span>
+      <span>n8n</span>
+      <span>Git</span>
+      <span>Docker</span>
+      <span>FastAPI</span>
+    </div>
+  </section>
 
-### Libraries and Tools
-
-PyTorch, Scikit-learn, Pandas, NumPy, OpenCV, LangChain, vector databases, n8n, Git, Docker, FastAPI
-
-### Areas of Interest
-
-Deep Learning, Machine Learning, Large Language Models (LLMs), Generative AI, Retrieval-Augmented Generation (RAG), AI for Healthcare, Computer Vision, Natural Language Processing
+  <section class="tech-stack__group">
+    <h3>Areas of Interest</h3>
+    <div class="tech-stack__tags" aria-label="Areas of Interest">
+      <span>Deep Learning</span>
+      <span>Machine Learning</span>
+      <span>LLMs</span>
+      <span>Generative AI</span>
+      <span>RAG</span>
+      <span>AI for Healthcare</span>
+      <span>Computer Vision</span>
+      <span>NLP</span>
+    </div>
+  </section>
+</div>

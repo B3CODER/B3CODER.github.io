@@ -68,6 +68,40 @@ body {
   border-bottom-color: $border-color;
 }
 
+.tech-stack {
+  margin-top: 1.5em;
+}
+
+.tech-stack__group {
+  margin-bottom: 1.65em;
+}
+
+.tech-stack__group h3 {
+  margin: 0 0 0.7em;
+  color: $darker-gray;
+  font-size: 0.98em;
+}
+
+.tech-stack__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.tech-stack__tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.1em;
+  padding: 0.38em 0.9em;
+  color: $primary-color;
+  font-size: 0.86em;
+  line-height: 1;
+  background: rgba(14, 110, 106, 0.08);
+  border: 1px solid rgba(14, 110, 106, 0.16);
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(17, 24, 39, 0.04);
+}
+
 .archive__item-title,
 .experience__item-title,
 .author__name {
