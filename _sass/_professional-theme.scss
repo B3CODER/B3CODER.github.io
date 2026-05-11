@@ -4,19 +4,13 @@
 
 body {
   background-color: $background-color;
-  background-image:
-    radial-gradient(circle at 12% 10%, rgba(46, 134, 171, 0.08), transparent 24%),
-    radial-gradient(circle at 88% 8%, rgba(30, 58, 95, 0.06), transparent 24%),
-    linear-gradient(180deg, #fbfdff 0%, $background-color 54%, #e7eef5 100%);
-  background-position: center top, center top, center top;
-  background-size: auto, auto, auto;
-  background-attachment: fixed;
+  background-image: none;
 }
 
 .masthead {
-  background: rgba(248, 251, 253, 0.96);
-  border-bottom-color: rgba(46, 134, 171, 0.16);
-  box-shadow: 0 10px 30px rgba(30, 58, 95, 0.07);
+  background: $body-color;
+  border-bottom-color: $border-color;
+  box-shadow: 0 4px 14px rgba(17, 24, 39, 0.05);
 }
 
 .masthead__menu-item--lg a {
@@ -100,10 +94,10 @@ body {
   color: $primary-color;
   font-size: 0.86em;
   line-height: 1;
-  background: rgba(46, 134, 171, 0.1);
-  border: 1px solid rgba(46, 134, 171, 0.2);
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid rgba(124, 58, 237, 0.18);
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(30, 58, 95, 0.04);
+  box-shadow: none;
 }
 
 .project-list {
@@ -120,10 +114,10 @@ body {
   padding: 1.25rem 1.35rem;
   color: $text-color;
   text-decoration: none !important;
-  background: rgba(255, 255, 255, 0.86);
-  border: 1px solid rgba(207, 218, 230, 0.95);
+  background: $body-color;
+  border: 1px solid $border-color;
   border-radius: 8px;
-  box-shadow: 0 14px 34px rgba(30, 58, 95, 0.08);
+  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.06);
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -133,8 +127,8 @@ body {
 
   &:hover {
     color: $text-color;
-    border-color: rgba(46, 134, 171, 0.38);
-    box-shadow: 0 24px 54px rgba(30, 58, 95, 0.16);
+    border-color: rgba(124, 58, 237, 0.28);
+    box-shadow: 0 18px 36px rgba(17, 24, 39, 0.1);
     transform: translate(4px, -4px) scale(1.01);
   }
 }
@@ -151,22 +145,22 @@ body {
   position: relative;
   background:
     radial-gradient(circle at center, $body-color 0 30%, transparent 31%),
-    radial-gradient(circle at center, rgba(46, 134, 171, 0.12) 0 52%, transparent 53%),
+    radial-gradient(circle at center, rgba(124, 58, 237, 0.12) 0 52%, transparent 53%),
     $body-color;
-  border: 2px solid rgba(46, 134, 171, 0.3);
+  border: 2px solid rgba(124, 58, 237, 0.24);
   border-radius: 50%;
   box-shadow:
-    0 10px 24px rgba(30, 58, 95, 0.09),
-    inset 0 0 0 8px rgba(46, 134, 171, 0.07);
+    0 10px 24px rgba(17, 24, 39, 0.06),
+    inset 0 0 0 8px rgba(124, 58, 237, 0.06);
   transition: border-color 0.35s ease, box-shadow 0.35s ease,
     transform 2.5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .project-card:hover .project-card__mark {
-  border-color: rgba(46, 134, 171, 0.56);
+  border-color: rgba(124, 58, 237, 0.42);
   box-shadow:
-    0 14px 30px rgba(30, 58, 95, 0.14),
-    inset 0 0 0 8px rgba(46, 134, 171, 0.11);
+    0 14px 30px rgba(17, 24, 39, 0.09),
+    inset 0 0 0 8px rgba(124, 58, 237, 0.1);
   transform: rotate(360deg);
 }
 
@@ -204,17 +198,17 @@ body {
   font-weight: 800;
   line-height: 1;
   white-space: nowrap;
-  background: rgba(46, 134, 171, 0.1);
-  border: 1px solid rgba(46, 134, 171, 0.22);
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid rgba(124, 58, 237, 0.2);
   border-radius: 6px;
 }
 
 .project-detail__image {
   width: 100%;
   margin: 0 0 1.4rem;
-  border: 1px solid rgba(207, 218, 230, 0.95);
+  border: 1px solid $border-color;
   border-radius: 8px;
-  box-shadow: 0 18px 42px rgba(30, 58, 95, 0.12);
+  box-shadow: 0 18px 42px rgba(17, 24, 39, 0.08);
 }
 
 .project-tags {
@@ -232,8 +226,8 @@ body {
   color: $primary-color;
   font-size: 0.78em;
   line-height: 1;
-  background: rgba(46, 134, 171, 0.1);
-  border: 1px solid rgba(46, 134, 171, 0.2);
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid rgba(124, 58, 237, 0.18);
   border-radius: 8px;
 }
 
@@ -264,7 +258,7 @@ body {
   background: $body-color;
   border: 0;
   border-radius: 8px;
-  box-shadow: 0 10px 24px rgba(30, 58, 95, 0.1);
+  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.08);
   object-fit: cover;
   object-position: center;
 }
@@ -305,7 +299,7 @@ body {
 
   @include breakpoint($large) {
     padding-top: 0.7rem;
-    border-top: 1px solid rgba(46, 134, 171, 0.16);
+    border-top: 1px solid $border-color;
     box-shadow: none;
   }
 }
@@ -335,7 +329,7 @@ body {
 
 .author__urls a:hover {
   color: $primary-color;
-  background: rgba(46, 134, 171, 0.1);
+  background: rgba(124, 58, 237, 0.08);
   text-decoration: none;
 }
 
@@ -351,12 +345,12 @@ body {
   color: $body-color !important;
   background-color: $primary-color;
   border-radius: 6px;
-  box-shadow: 0 8px 18px rgba(46, 134, 171, 0.2);
+  box-shadow: 0 8px 18px rgba(124, 58, 237, 0.2);
   transition: background-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 
   &:hover {
     background-color: $link-color-hover;
-    box-shadow: 0 12px 24px rgba(30, 58, 95, 0.2);
+    box-shadow: 0 12px 24px rgba(91, 33, 182, 0.2);
     transform: translateY(-1px);
   }
 
