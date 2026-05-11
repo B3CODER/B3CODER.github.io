@@ -5,20 +5,20 @@
 body {
   background-color: $background-color;
   background-image:
-    radial-gradient(circle at 12% 18%, rgba(14, 110, 106, 0.08), transparent 28%),
-    radial-gradient(circle at 86% 10%, rgba(54, 94, 125, 0.07), transparent 24%),
-    linear-gradient(135deg, rgba(14, 110, 106, 0.035) 25%, transparent 25%),
-    linear-gradient(225deg, rgba(54, 94, 125, 0.03) 25%, transparent 25%),
-    linear-gradient(180deg, #f9fafb 0%, $background-color 48%, #eef1f5 100%);
+    radial-gradient(circle at 10% 16%, rgba(46, 134, 171, 0.12), transparent 26%),
+    radial-gradient(circle at 88% 12%, rgba(30, 58, 95, 0.08), transparent 24%),
+    linear-gradient(135deg, rgba(46, 134, 171, 0.045) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(30, 58, 95, 0.035) 25%, transparent 25%),
+    linear-gradient(180deg, #f8fbfd 0%, $background-color 48%, #e7eef5 100%);
   background-position: center top, center top, 0 0, 0 0, center top;
-  background-size: auto, auto, 34px 34px, 34px 34px, auto;
+  background-size: auto, auto, 42px 42px, 42px 42px, auto;
   background-attachment: fixed;
 }
 
 .masthead {
-  background: rgba(255, 255, 255, 0.97);
-  border-bottom-color: $border-color;
-  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.05);
+  background: rgba(248, 251, 253, 0.96);
+  border-bottom-color: rgba(46, 134, 171, 0.16);
+  box-shadow: 0 10px 30px rgba(30, 58, 95, 0.07);
 }
 
 .masthead__menu-item--lg a {
@@ -55,6 +55,12 @@ body {
 
 #main {
   margin-top: 2.25em;
+  padding-top: 1.4rem;
+  padding-bottom: 1.75rem;
+  background: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(46, 134, 171, 0.12);
+  border-radius: 8px;
+  box-shadow: 0 24px 60px rgba(30, 58, 95, 0.08);
 }
 
 .page__title,
@@ -96,10 +102,10 @@ body {
   color: $primary-color;
   font-size: 0.86em;
   line-height: 1;
-  background: rgba(14, 110, 106, 0.08);
-  border: 1px solid rgba(14, 110, 106, 0.16);
-  border-radius: 999px;
-  box-shadow: 0 4px 12px rgba(17, 24, 39, 0.04);
+  background: rgba(46, 134, 171, 0.1);
+  border: 1px solid rgba(46, 134, 171, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(30, 58, 95, 0.04);
 }
 
 .project-list {
@@ -116,10 +122,10 @@ body {
   padding: 1.25rem 1.35rem;
   color: $text-color;
   text-decoration: none !important;
-  background: rgba(255, 255, 255, 0.84);
-  border: 1px solid rgba(217, 222, 229, 0.9);
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(207, 218, 230, 0.95);
   border-radius: 8px;
-  box-shadow: 0 14px 34px rgba(17, 24, 39, 0.07);
+  box-shadow: 0 14px 34px rgba(30, 58, 95, 0.08);
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -129,8 +135,8 @@ body {
 
   &:hover {
     color: $text-color;
-    border-color: rgba(14, 110, 106, 0.34);
-    box-shadow: 0 24px 54px rgba(17, 24, 39, 0.14);
+    border-color: rgba(46, 134, 171, 0.38);
+    box-shadow: 0 24px 54px rgba(30, 58, 95, 0.16);
     transform: translate(4px, -4px) scale(1.01);
   }
 }
@@ -147,22 +153,22 @@ body {
   position: relative;
   background:
     radial-gradient(circle at center, $body-color 0 30%, transparent 31%),
-    radial-gradient(circle at center, rgba(14, 110, 106, 0.1) 0 52%, transparent 53%),
+    radial-gradient(circle at center, rgba(46, 134, 171, 0.12) 0 52%, transparent 53%),
     $body-color;
-  border: 2px solid rgba(14, 110, 106, 0.26);
+  border: 2px solid rgba(46, 134, 171, 0.3);
   border-radius: 50%;
   box-shadow:
-    0 10px 24px rgba(17, 24, 39, 0.08),
-    inset 0 0 0 8px rgba(14, 110, 106, 0.06);
+    0 10px 24px rgba(30, 58, 95, 0.09),
+    inset 0 0 0 8px rgba(46, 134, 171, 0.07);
   transition: border-color 0.35s ease, box-shadow 0.35s ease,
     transform 2.5s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .project-card:hover .project-card__mark {
-  border-color: rgba(14, 110, 106, 0.52);
+  border-color: rgba(46, 134, 171, 0.56);
   box-shadow:
-    0 14px 30px rgba(17, 24, 39, 0.12),
-    inset 0 0 0 8px rgba(14, 110, 106, 0.1);
+    0 14px 30px rgba(30, 58, 95, 0.14),
+    inset 0 0 0 8px rgba(46, 134, 171, 0.11);
   transform: rotate(360deg);
 }
 
@@ -200,17 +206,17 @@ body {
   font-weight: 800;
   line-height: 1;
   white-space: nowrap;
-  background: rgba(14, 110, 106, 0.08);
-  border: 1px solid rgba(14, 110, 106, 0.18);
+  background: rgba(46, 134, 171, 0.1);
+  border: 1px solid rgba(46, 134, 171, 0.22);
   border-radius: 6px;
 }
 
 .project-detail__image {
   width: 100%;
   margin: 0 0 1.4rem;
-  border: 1px solid rgba(217, 222, 229, 0.9);
+  border: 1px solid rgba(207, 218, 230, 0.95);
   border-radius: 8px;
-  box-shadow: 0 18px 42px rgba(17, 24, 39, 0.1);
+  box-shadow: 0 18px 42px rgba(30, 58, 95, 0.12);
 }
 
 .project-tags {
@@ -228,9 +234,9 @@ body {
   color: $primary-color;
   font-size: 0.78em;
   line-height: 1;
-  background: rgba(14, 110, 106, 0.08);
-  border: 1px solid rgba(14, 110, 106, 0.16);
-  border-radius: 999px;
+  background: rgba(46, 134, 171, 0.1);
+  border: 1px solid rgba(46, 134, 171, 0.2);
+  border-radius: 8px;
 }
 
 @media (max-width: 700px) {
@@ -258,16 +264,19 @@ body {
 
 .author__avatar img {
   background: $body-color;
-  border-color: $border-color;
-  box-shadow: 0 10px 28px rgba(17, 24, 39, 0.08);
+  border-color: rgba(46, 134, 171, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 14px 30px rgba(30, 58, 95, 0.13);
+  object-fit: cover;
+  object-position: center;
 }
 
 .sidebar > div[itemscope] {
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(217, 222, 229, 0.82);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(240, 244, 248, 0.66));
+  border: 1px solid rgba(46, 134, 171, 0.16);
   border-radius: 8px;
-  box-shadow: 0 16px 38px rgba(17, 24, 39, 0.08);
+  box-shadow: 0 16px 38px rgba(30, 58, 95, 0.1);
 }
 
 .sidebar .author__avatar {
@@ -276,6 +285,9 @@ body {
 
 .sidebar .author__avatar img {
   display: block;
+  aspect-ratio: 1;
+  max-width: 180px;
+  padding: 0;
   margin-right: auto;
   margin-left: auto;
 }
@@ -295,7 +307,7 @@ body {
 
   @include breakpoint($large) {
     padding-top: 0.7rem;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid rgba(46, 134, 171, 0.16);
     box-shadow: none;
   }
 }
@@ -325,7 +337,7 @@ body {
 
 .author__urls a:hover {
   color: $primary-color;
-  background: rgba(14, 110, 106, 0.08);
+  background: rgba(46, 134, 171, 0.1);
   text-decoration: none;
 }
 
@@ -341,12 +353,12 @@ body {
   color: $body-color !important;
   background-color: $primary-color;
   border-radius: 6px;
-  box-shadow: 0 8px 18px rgba(14, 110, 106, 0.18);
+  box-shadow: 0 8px 18px rgba(46, 134, 171, 0.2);
   transition: background-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 
   &:hover {
     background-color: $link-color-hover;
-    box-shadow: 0 12px 24px rgba(14, 110, 106, 0.22);
+    box-shadow: 0 12px 24px rgba(30, 58, 95, 0.2);
     transform: translateY(-1px);
   }
 
