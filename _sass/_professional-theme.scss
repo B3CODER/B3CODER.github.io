@@ -5,13 +5,11 @@
 body {
   background-color: $background-color;
   background-image:
-    radial-gradient(circle at 10% 16%, rgba(46, 134, 171, 0.12), transparent 26%),
-    radial-gradient(circle at 88% 12%, rgba(30, 58, 95, 0.08), transparent 24%),
-    linear-gradient(135deg, rgba(46, 134, 171, 0.045) 25%, transparent 25%),
-    linear-gradient(225deg, rgba(30, 58, 95, 0.035) 25%, transparent 25%),
-    linear-gradient(180deg, #f8fbfd 0%, $background-color 48%, #e7eef5 100%);
-  background-position: center top, center top, 0 0, 0 0, center top;
-  background-size: auto, auto, 42px 42px, 42px 42px, auto;
+    radial-gradient(circle at 12% 10%, rgba(46, 134, 171, 0.08), transparent 24%),
+    radial-gradient(circle at 88% 8%, rgba(30, 58, 95, 0.06), transparent 24%),
+    linear-gradient(180deg, #fbfdff 0%, $background-color 54%, #e7eef5 100%);
+  background-position: center top, center top, center top;
+  background-size: auto, auto, auto;
   background-attachment: fixed;
 }
 
@@ -57,10 +55,10 @@ body {
   margin-top: 2.25em;
   padding-top: 1.4rem;
   padding-bottom: 1.75rem;
-  background: rgba(255, 255, 255, 0.56);
-  border: 1px solid rgba(46, 134, 171, 0.12);
-  border-radius: 8px;
-  box-shadow: 0 24px 60px rgba(30, 58, 95, 0.08);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .page__title,
@@ -264,19 +262,19 @@ body {
 
 .author__avatar img {
   background: $body-color;
-  border-color: rgba(46, 134, 171, 0.18);
+  border: 0;
   border-radius: 8px;
-  box-shadow: 0 14px 30px rgba(30, 58, 95, 0.13);
+  box-shadow: 0 10px 24px rgba(30, 58, 95, 0.1);
   object-fit: cover;
   object-position: center;
 }
 
 .sidebar > div[itemscope] {
-  padding: 1rem;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(240, 244, 248, 0.66));
-  border: 1px solid rgba(46, 134, 171, 0.16);
-  border-radius: 8px;
-  box-shadow: 0 16px 38px rgba(30, 58, 95, 0.1);
+  padding: 1rem 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .sidebar .author__avatar {
